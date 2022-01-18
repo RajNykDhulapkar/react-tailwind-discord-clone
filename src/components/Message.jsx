@@ -1,7 +1,5 @@
 import { TrashIcon } from "@heroicons/react/solid";
 import moment from "moment";
-import { useSelector } from "react-redux";
-import { selectChannelId } from "../features/channelSlice";
 import { db } from "../firebase";
 
 const Message = ({ id, message, timestamp, name, photoURL, email, user, channelId }) => {
@@ -9,7 +7,7 @@ const Message = ({ id, message, timestamp, name, photoURL, email, user, channelI
         <div className='flex items-center p-1 pl-5 my-5 mr-2 hover:bg-[#32353b] group'>
             <img
                 src={photoURL}
-                alt='user image'
+                alt='user'
                 className='h-10 rounded-full cursor-pointer hover:shadow-2xl '
             />
             <div className='flex flex-col ml-2 '>

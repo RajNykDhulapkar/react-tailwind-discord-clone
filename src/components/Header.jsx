@@ -22,11 +22,21 @@ const Header = () => {
                 <img src={logo} alt='logo' className='w-32 h-12 object-contain' />
             </a>
             <div className='hidden mt-4 lg:flex space-x-6 text-white '>
-                <a className='link'>Download</a>
-                <a className='link'>Why Discord?</a>
-                <a className='link'>Nitro</a>
-                <a className='link'>Safety</a>
-                <a className='link'>Support</a>
+                <a href='#' className='link'>
+                    Download
+                </a>
+                <a href='#' className='link'>
+                    Why Discord?
+                </a>
+                <a href='#' className='link'>
+                    Nitro
+                </a>
+                <a href='#' className='link'>
+                    Safety
+                </a>
+                <a href='#' className='link'>
+                    Support
+                </a>
             </div>
             <div className='flex space-x-4'>
                 <button

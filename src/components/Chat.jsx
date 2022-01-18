@@ -14,7 +14,7 @@ import { useRef } from "react";
 import { useAuthState } from "react-firebase-hooks/auth";
 import { useSelector } from "react-redux";
 import { selectChannelId, selectChannelName } from "../features/channelSlice";
-import { auth, db, firebaseApp } from "../firebase";
+import { auth, db } from "../firebase";
 import firebase from "firebase/compat/app";
 import "firebase/compat/firestore";
 import { useCollection } from "react-firebase-hooks/firestore";
